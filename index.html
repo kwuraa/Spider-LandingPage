@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider Informática | Especialista em Manutenção que Resolve</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FontAwesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a
+      href="https://wa.me/5515999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
+      target="_blank"
+      class="whatsapp-float"
+      aria-label="Falar no WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="glass">
+      <div class="logo-container">
+        <img src="TIPOGRAFIA_2.png" alt="Spider Informática" class="logo-img" />
+      </div>
+      <nav class="desktop-nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header-cta">
+        <a
+          href="https://wa.me/5515999999999"
+          target="_blank"
+          class="btn-cta-header"
+          >Solicitar Orçamento</a
+        >
+      </div>
+      <button
+        class="mobile-menu-btn"
+        id="mobileMenuBtn"
+        aria-label="Abrir Menu"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+
+    <!-- MENU MOBILE -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="close-menu-btn" id="closeMenuBtn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <a href="#servicos" class="mobile-link">Serviços</a>
+      <a href="#sobre" class="mobile-link">Sobre</a>
+      <a href="#trabalhos" class="mobile-link">Trabalhos</a>
+      <a href="#avaliacoes" class="mobile-link">Avaliações</a>
+      <a href="#faq" class="mobile-link">FAQ</a>
+      <a href="#contato" class="mobile-link">Contato</a>
+      <a href="https://wa.me/5515999999999" target="_blank" class="btn-primary"
+        >Solicitar Orçamento</a
+      >
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content animate-on-scroll">
+        <div class="badge-region">
+          <i class="fa-solid fa-location-dot"></i> Atendimento em Sorocaba, SP e
+          Região
+        </div>
+        <h1>Especialista em manutenção <span>que resolve.</span></h1>
+        <p>
+          Assistência técnica especializada e transparente para Smartphones,
+          Videogames, PCs e Notebooks. Soluções rápidas com garantia e peças de
+          qualidade.
+        </p>
+        <div class="hero-buttons">
+          <a
+            href="https://wa.me/5515999999999"
+            target="_blank"
+            class="btn-primary"
+            ><i class="fa-solid fa-calculator"></i> Solicitar Orçamento</a
+          >
+          <a
+            href="https://wa.me/5515999999999"
+            target="_blank"
+            class="btn-secondary"
+            ><i class="fa-brands fa-whatsapp"></i> Falar pelo WhatsApp</a
+          >
+        </div>
+      </div>
+      <div class="hero-image animate-on-scroll">
+        <img
+          src="LOGO.png"
+          alt="Spider Informática Logo"
+          class="main-hero-logo"
+        />
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section id="servicos" class="services">
+      <h2 class="section-title animate-on-scroll">
+        Nossos Serviços Especializados
+      </h2>
+      <p class="section-subtitle animate-on-scroll">
+        Soluções completas com diagnóstico preciso para seus dispositivos.
+      </p>
+
+      <div class="cards-grid">
+        <!-- Card Smartphones -->
+        <div class="card glass animate-on-scroll">
+          <div class="card-icon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h3>Smartphones</h3>
+          <ul class="service-list">
+            <li>Troca de tela e display</li>
+            <li>Substituição de bateria</li>
+            <li>Reparo em placa de circuito</li>
+            <li>Conector de carga e câmeras</li>
+          </ul>
+        </div>
+
+        <!-- Card Videogames -->
+        <div class="card glass animate-on-scroll">
+          <div class="card-icon"><i class="fa-solid fa-gamepad"></i></div>
+          <h3>Videogames</h3>
+          <ul class="service-list">
+            <li>Limpeza preventiva e troca de pasta térmica</li>
+            <li>Reparo de HDMI (PlayStation, Xbox, Nintendo)</li>
+            <li>Conserto de controles (Analogicos/Drift)</li>
+            <li>Reparo de fonte e superaquecimento</li>
+          </ul>
+        </div>
+
+        <!-- Card PCs -->
+        <div class="card glass animate-on-scroll">
+          <div class="card-icon"><i class="fa-solid fa-computer"></i></div>
+          <h3>PCs (Computadores)</h3>
+          <ul class="service-list">
+            <li>Montagem de PCs Gamers e profissionais</li>
+            <li>Upgrades de SSD e Memória RAM</li>
+            <li>Formatação e limpeza avançada</li>
+            <li>Diagnóstico de travamentos e placa-mãe</li>
+          </ul>
+        </div>
+
+        <!-- Card Notebooks -->
+        <div class="card glass animate-on-scroll">
+          <div class="card-icon"><i class="fa-solid fa-laptop"></i></div>
+          <h3>Notebooks</h3>
+          <ul class="service-list">
+            <li>Troca de telas e teclados</li>
+            <li>Reparo de carcaças e dobradiças quebradas</li>
+            <li>Formatação e backup de dados</li>
+            <li>Remoção de vírus e otimização de sistema</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO POR QUE ESCOLHER -->
+    <section id="sobre" class="why-us">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">
+          Por que escolher nossa assistência?
+        </h2>
+        <div class="features-grid">
+          <div class="feature-item glass animate-on-scroll">
+            <i class="fa-solid fa-stethoscope"></i>
+            <h4>Diagnóstico Técnico</h4>
+            <p>
+              Avaliação detalhada para identificar a raiz do problema sem
+              enrolação.
+            </p>
+          </div>
+          <div class="feature-item glass animate-on-scroll">
+            <i class="fa-solid fa-handshake"></i>
+            <h4>Transparência</h4>
+            <p>
+              Clareza em todas as etapas do processo e honestidade no
+              atendimento.
+            </p>
+          </div>
+          <div class="feature-item glass animate-on-scroll">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+            <h4>Orçamento Antes do Reparo</h4>
+            <p>Você só autoriza o serviço após aprovar o orçamento prévio.</p>
+          </div>
+          <div class="feature-item glass animate-on-scroll">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h4>Garantia do Serviço</h4>
+            <p>Segurança total com garantia em peças e serviços executados.</p>
+          </div>
+          <div class="feature-item glass animate-on-scroll">
+            <i class="fa-solid fa-user-gear"></i>
+            <h4>Técnicos Especializados</h4>
+            <p>
+              Profissionais capacitados e atualizados com as novas tecnologias.
+            </p>
+          </div>
+          <div class="feature-item glass animate-on-scroll">
+            <i class="fa-solid fa-gem"></i>
+            <h4>Peças de Qualidade</h4>
+            <p>
+              Utilização de componentes de alta durabilidade e confiabilidade.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO COMO FUNCIONA -->
+    <section class="how-it-works">
+      <h2 class="section-title animate-on-scroll">
+        Como funciona o atendimento
+      </h2>
+      <div class="steps-grid">
+        <div class="step-card glass animate-on-scroll">
+          <span class="step-number">01</span>
+          <h4>Entre em contato</h4>
+          <p>Chame no WhatsApp ou visite nossa loja para relatar o problema.</p>
+        </div>
+        <div class="step-card glass animate-on-scroll">
+          <span class="step-number">02</span>
+          <h4>Diagnóstico</h4>
+          <p>Analisamos seu equipamento detalhadamente em laboratório.</p>
+        </div>
+        <div class="step-card glass animate-on-scroll">
+          <span class="step-number">03</span>
+          <h4>Orçamento</h4>
+          <p>Enviamos o valor exato e prazo para aprovação prévia.</p>
+        </div>
+        <div class="step-card glass animate-on-scroll">
+          <span class="step-number">04</span>
+          <h4>Reparo</h4>
+          <p>
+            Executamos o conserto com ferramentas profissionais e peças de
+            qualidade.
+          </p>
+        </div>
+        <div class="step-card glass animate-on-scroll">
+          <span class="step-number">05</span>
+          <h4>Retirada</h4>
+          <p>
+            Equipamento testado e pronto para você usar novamente com garantia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE TRABALHOS REALIZADOS -->
+    <section id="trabalhos" class="gallery-section">
+      <h2 class="section-title animate-on-scroll">Trabalhos Realizados</h2>
+      <p class="section-subtitle animate-on-scroll">
+        Veja alguns exemplos práticos dos nossos consertos e manutenções.
+      </p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=600&q=80"
+            alt="Montagem PC Gamer"
+          />
+          <div class="gallery-info">
+            <h4>Montagem de PC Gamer</h4>
+            <p>
+              Organização de cabos (cable management) impecável e otimização de
+              fluxo de ar.
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80"
+            alt="Limpeza Interna Notebook"
+          />
+          <div class="gallery-info">
+            <h4>Limpeza de Notebook</h4>
+            <p>
+              Troca de pasta térmica e remoção de poeira para zerar o
+              superaquecimento.
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80"
+            alt="Manutenção Smartphone"
+          />
+          <div class="gallery-info">
+            <h4>Troca de Display de Smartphone</h4>
+            <p>
+              Substituição de tela frontal com teste completo de toque e cores.
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
+            alt="Reparo Videogame"
+          />
+          <div class="gallery-info">
+            <h4>Reparo em Placa de Videogame</h4>
+            <p>
+              Manutenção especializada em circuitos de alimentação e portas
+              HDMI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE AVALIAÇÕES / DEPOIMENTOS -->
+    <section id="avaliacoes" class="testimonials">
+      <h2 class="section-title animate-on-scroll">
+        O que dizem Nossos Clientes
+      </h2>
+      <div class="rating-summary animate-on-scroll">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+        </div>
+        <p>
+          <strong>Nota Média 5.0 / 5.0</strong> baseada em avaliações reais de
+          clientes satisfeitos.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass animate-on-scroll">
+          <p class="testimonial-text">
+            "Levei meu notebook que não ligava de jeito nenhum. Fizeram o
+            orçamento rápido e o preço foi super justo. Recomendo demais o
+            trabalho da Spider!"
+          </p>
+          <h5 class="client-name">Carlos Eduardo</h5>
+        </div>
+        <div class="testimonial-card glass animate-on-scroll">
+          <p class="testimonial-text">
+            "Atendimento excelente em Sorocaba! Meu celular ficou novo após a
+            troca da tela e a entrega foi super rápida. Profissionais de
+            confiança."
+          </p>
+          <h5 class="client-name">Mariana Souza</h5>
+        </div>
+        <div class="testimonial-card glass animate-on-scroll">
+          <p class="testimonial-text">
+            "Meu videogame estava superaquecendo e fazendo barulho. Fizeram a
+            limpeza e troca de pasta, agora está rodando liso e silencioso. Nota
+            10!"
+          </p>
+          <h5 class="client-name">Lucas Gabriel</h5>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE GALERIA (ESTRUTURA / BANCADA) -->
+    <section class="facility-gallery">
+      <h2 class="section-title animate-on-scroll">Nossa Estrutura e Bancada</h2>
+      <div class="facility-grid">
+        <div class="facility-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80"
+            alt="Bancada Técnica"
+          />
+          <span>Bancada Técnica Equipada</span>
+        </div>
+        <div class="facility-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80"
+            alt="Ferramentas de Precisão"
+          />
+          <span>Ferramentas de Precisão</span>
+        </div>
+        <div class="facility-item glass animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
+            alt="Equipe Técnica"
+          />
+          <span>Atendimento Especializado</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO FAQ (PERGUNTAS FREQUENTES) -->
+    <section id="faq" class="faq-section">
+      <h2 class="section-title animate-on-scroll">Perguntas Frequentes</h2>
+      <div class="faq-container">
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Quanto custa o diagnóstico? <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Realizamos uma avaliação técnica estruturada para identificar o
+              problema com precisão.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            O orçamento é gratuito? <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Entre em contato conosco pelo WhatsApp para consultar as condições
+              aplicáveis ao seu tipo de equipamento.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            O serviço possui garantia? <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim! Todos os nossos serviços e peças substituídas possuem
+              garantia formal para sua total tranquilidade.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Preciso agendar atendimento?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Não é obrigatório, mas você pode nos chamar no WhatsApp antes para
+              agilizar o seu atendimento.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Quanto tempo demora o reparo?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              O prazo varia conforme o tipo de serviço (simples manutenções
+              levam poucas horas; reparos complexos em placa dependem de testes
+              aprofundados).
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Vocês trabalham com peças originais?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Trabalhamos com componentes de altíssima qualidade e procedência
+              garantida no mercado.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Vocês fazem retirada e entrega?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Consulte nossa disponibilidade de logística para Sorocaba e região
+              através do nosso WhatsApp.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Posso acompanhar o andamento do reparo?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim, mantemos nossos clientes informados sobre cada etapa do
+              processo de manutenção.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item glass animate-on-scroll">
+          <button class="faq-question">
+            Vocês conseguem recuperar meus dados?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Possuímos ferramentas e técnicas especializadas para tentativa de
+              recuperação de dados em HDs, SSDs e cartões.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta">
+      <div class="glass cta-box animate-on-scroll">
+        <h2>Precisa de ajuda com o seu equipamento?</h2>
+        <p>
+          Não deixe para depois. Fale com nossos especialistas agora mesmo e
+          resolva seu problema com rapidez e segurança.
+        </p>
+        <div class="cta-buttons">
+          <a
+            href="https://wa.me/5515999999999"
+            target="_blank"
+            class="btn-primary"
+            ><i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp</a
+          >
+          <a
+            href="https://wa.me/5515999999999"
+            target="_blank"
+            class="btn-secondary"
+            ><i class="fa-solid fa-calculator"></i> Solicitar Orçamento</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE LOCALIZAÇÃO E CONTATO -->
+    <section id="contato" class="location-contact">
+      <h2 class="section-title animate-on-scroll">Localização e Contato</h2>
+      <div class="contact-grid">
+        <div class="contact-info glass animate-on-scroll">
+          <h3>Spider Informática</h3>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <strong>Endereço:</strong> Sorocaba, SP e Região
+          </p>
+          <p>
+            <i class="fa-solid fa-clock"></i> <strong>Horário:</strong> Segunda
+            a Sexta: 09h às 18h | Sábado: 09h às 13h
+          </p>
+          <p>
+            <i class="fa-brands fa-whatsapp"></i>
+            <strong>WhatsApp:</strong> (15) 99999-9999
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i> <strong>Telefone:</strong> (15)
+            3333-3333
+          </p>
+          <p>
+            <i class="fa-brands fa-instagram"></i>
+            <strong>Instagram:</strong> @spider_informatica_
+          </p>
+        </div>
+        <div class="map-container glass animate-on-scroll">
+          <!-- Mapa ilustrativo incorporado indicando Sorocaba/SP -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4943974346015!2d-47.5153282!3d-23.5147141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b4ce2504e09%3A0xe7d2814f67de060e!2sSpider%20inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1789514547034!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-col">
+          <img
+            src="TIPOGRAFIA_2.png"
+            alt="Spider Informática"
+            class="footer-logo"
+          />
+          <p>Especialista em manutenção que resolve em Sorocaba e região.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Links Importantes</h4>
+          <a href="#servicos">Serviços</a>
+          <a href="#sobre">Sobre Nós</a>
+          <a href="#trabalhos">Trabalhos Realizados</a>
+          <a href="#faq">Perguntas Frequentes</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal & Privacidade</h4>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+          <p class="cnpj-text">CNPJ: 00.000.000/0001-00</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Spider Informática. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
