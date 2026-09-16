@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spider Informática | Especialista em Manutenção que Resolve</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <!-- FontAwesome para ícones -->
     <link
@@ -11,6 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
+
   <body>
     <!-- BOTÃO FLUTUANTE WHATSAPP -->
     <a
@@ -30,8 +38,8 @@
       <nav class="desktop-nav">
         <a href="#servicos">Serviços</a>
         <a href="#sobre">Sobre</a>
+        <a href="#como-funciona">Como Funciona</a>
         <a href="#trabalhos">Trabalhos</a>
-        <a href="#avaliacoes">Avaliações</a>
         <a href="#faq">FAQ</a>
         <a href="#contato">Contato</a>
       </nav>
@@ -59,8 +67,8 @@
       </button>
       <a href="#servicos" class="mobile-link">Serviços</a>
       <a href="#sobre" class="mobile-link">Sobre</a>
+      <a href="#como-funciona" class="mobile-link">Como Funciona</a>
       <a href="#trabalhos" class="mobile-link">Trabalhos</a>
-      <a href="#avaliacoes" class="mobile-link">Avaliações</a>
       <a href="#faq" class="mobile-link">FAQ</a>
       <a href="#contato" class="mobile-link">Contato</a>
       <a href="https://wa.me/5515999999999" target="_blank" class="btn-primary"
@@ -71,10 +79,6 @@
     <!-- HERO SECTION -->
     <section class="hero">
       <div class="hero-content animate-on-scroll">
-        <div class="badge-region">
-          <i class="fa-solid fa-location-dot"></i> Atendimento em Sorocaba, SP e
-          Região
-        </div>
         <h1>Especialista em manutenção <span>que resolve.</span></h1>
         <p>
           Assistência técnica especializada e transparente para Smartphones,
@@ -218,176 +222,261 @@
       </div>
     </section>
 
-    <!-- SEÇÃO COMO FUNCIONA -->
-    <section class="how-it-works">
+    <!-- SEÇÃO COMO FUNCIONA E ATENDIMENTO -->
+    <section id="como-funciona" class="how-it-works">
       <h2 class="section-title animate-on-scroll">
-        Como funciona o atendimento
+        Como funciona o nosso atendimento
       </h2>
+      <p class="section-subtitle animate-on-scroll">
+        Do primeiro contato até a entrega final com garantia, conheça as etapas
+        transparentes do cuidado com o seu equipamento.
+      </p>
+
+      <!-- TIMELINE DE ETAPAS -->
       <div class="steps-grid">
+        <!-- Passo 1 -->
         <div class="step-card glass animate-on-scroll">
-          <span class="step-number">01</span>
-          <h4>Entre em contato</h4>
-          <p>Chame no WhatsApp ou visite nossa loja para relatar o problema.</p>
+          <div class="step-card-header">
+            <div class="step-icon-bubble">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+          </div>
+          <div class="step-card-body">
+            <h4>Primeiro Contato</h4>
+            <p>
+              Você nos chama no WhatsApp ou traz o aparelho em nossa bancada
+              relatando os sintomas apresentados.
+            </p>
+            <div class="step-highlight">
+              <i class="fa-solid fa-bolt"></i> Resposta rápida e sem burocracia
+            </div>
+          </div>
         </div>
+
+        <!-- Passo 2 -->
         <div class="step-card glass animate-on-scroll">
-          <span class="step-number">02</span>
-          <h4>Diagnóstico</h4>
-          <p>Analisamos seu equipamento detalhadamente em laboratório.</p>
+          <div class="step-card-header">
+            <div class="step-icon-bubble">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+          </div>
+          <div class="step-card-body">
+            <h4>Diagnóstico Técnico</h4>
+            <p>
+              Abertura e testes em bancada equipada para identificar a causa
+              exata da falha com precisão cirúrgica.
+            </p>
+            <div class="step-highlight">
+              <i class="fa-solid fa-magnifying-glass"></i> Análise técnica
+              especializada
+            </div>
+          </div>
         </div>
+
+        <!-- Passo 3 -->
         <div class="step-card glass animate-on-scroll">
-          <span class="step-number">03</span>
-          <h4>Orçamento</h4>
-          <p>Enviamos o valor exato e prazo para aprovação prévia.</p>
+          <div class="step-card-header">
+            <div class="step-icon-bubble">
+              <i class="fa-solid fa-file-lines"></i>
+            </div>
+          </div>
+          <div class="step-card-body">
+            <h4>Orçamento Claro</h4>
+            <p>
+              Apresentamos o laudo, valor das peças, mão de obra e prazo
+              estimado. Nada é feito sem sua autorização!
+            </p>
+            <div class="step-highlight">
+              <i class="fa-solid fa-handshake-simple"></i> 100% transparente,
+              sem surpresas
+            </div>
+          </div>
         </div>
+
+        <!-- Passo 4 -->
         <div class="step-card glass animate-on-scroll">
-          <span class="step-number">04</span>
-          <h4>Reparo</h4>
-          <p>
-            Executamos o conserto com ferramentas profissionais e peças de
-            qualidade.
-          </p>
+          <div class="step-card-header">
+            <div class="step-icon-bubble">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+          </div>
+          <div class="step-card-body">
+            <h4>Execução & Reparo</h4>
+            <p>
+              Conserto realizado com ferramentas de precisão, peças de
+              procedência e testes rigorosos de bancada.
+            </p>
+            <div class="step-highlight">
+              <i class="fa-solid fa-shield-halved"></i> Qualidade e cuidado
+              extremo
+            </div>
+          </div>
         </div>
+
+        <!-- Passo 5 -->
         <div class="step-card glass animate-on-scroll">
-          <span class="step-number">05</span>
-          <h4>Retirada</h4>
-          <p>
-            Equipamento testado e pronto para você usar novamente com garantia.
-          </p>
+          <div class="step-card-header">
+            <div class="step-icon-bubble">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="step-card-body">
+            <h4>Retirada & Garantia</h4>
+            <p>
+              Equipamento limpo, testado e 100% funcional, pronto para retirada
+              com garantia formal.
+            </p>
+            <div class="step-highlight">
+              <i class="fa-solid fa-medal"></i> Garantia formal Spider
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAINEL DE DIFERENCIAIS DE ATENDIMENTO -->
+      <div class="support-channels-panel glass animate-on-scroll">
+        <div class="channels-content">
+          <div class="channels-text">
+            <span class="channels-pill"
+              ><i class="fa-solid fa-headset"></i> Canais de Atendimento</span
+            >
+            <h3>Como você prefere ser atendido?</h3>
+            <p>Atendimento descomplicado e direto com nossos especialistas:</p>
+            <div class="channel-perks">
+              <div class="perk-item">
+                <i class="fa-solid fa-store"></i>
+                <div>
+                  <strong>Presencial na Bancada</strong>
+                  <span
+                    >Traga seu aparelho para avaliação e receba orientações
+                    diretas com quem conserta.</span
+                  >
+                </div>
+              </div>
+              <div class="perk-item">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div>
+                  <strong>Atendimento Direto no WhatsApp</strong>
+                  <span
+                    >Esclareça dúvidas técnicas, consulte estimativas e receba
+                    status do seu equipamento em tempo real.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="channels-action-box">
+            <div class="action-card-inner">
+              <div class="action-icon-pulse">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h4>Seu aparelho em mãos de confiança</h4>
+              <p>
+                Fale diretamente com nossa equipe e tire dúvidas sem
+                compromisso.
+              </p>
+              <a
+                href="https://wa.me/5515999999999?text=Olá,%20gostaria%20de%20iniciar%20um%20atendimento%20para%20o%20meu%20equipamento."
+                target="_blank"
+                class="btn-primary btn-pulse"
+              >
+                <i class="fa-brands fa-whatsapp"></i> Falar com Técnico Agora
+              </a>
+              <span class="action-note"
+                ><i class="fa-solid fa-bolt"></i> Resposta rápida pelo
+                WhatsApp</span
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- SEÇÃO DE TRABALHOS REALIZADOS -->
+    <!-- SEÇÃO DE TRABALHOS REALIZADOS (COM FOTOS REAIS DA BANCADA) -->
     <section id="trabalhos" class="gallery-section">
-      <h2 class="section-title animate-on-scroll">Trabalhos Realizados</h2>
+      <h2 class="section-title animate-on-scroll">
+        Trabalhos Realizados na Bancada
+      </h2>
       <p class="section-subtitle animate-on-scroll">
-        Veja alguns exemplos práticos dos nossos consertos e manutenções.
+        Confira alguns dos nossos registros reais de montagens, manutenções e
+        cuidados técnicos em Sorocaba.
       </p>
 
       <div class="gallery-grid">
+        <!-- Foto 1: Setup interno com memórias e cooler -->
         <div class="gallery-item glass animate-on-scroll">
           <img
-            src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=600&q=80"
-            alt="Montagem PC Gamer"
+            src="IMG_0041.png"
+            alt="Interior do PC com Memórias RAM e Cooler"
           />
           <div class="gallery-info">
-            <h4>Montagem de PC Gamer</h4>
+            <h4>Hardware e Componentes</h4>
             <p>
-              Organização de cabos (cable management) impecável e otimização de
-              fluxo de ar.
+              Detalhe do setup interno com instalação de memórias RAM de alto
+              desempenho e cooler para processador.
             </p>
           </div>
         </div>
-        <div class="gallery-item glass animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80"
-            alt="Limpeza Interna Notebook"
-          />
-          <div class="gallery-info">
-            <h4>Limpeza de Notebook</h4>
-            <p>
-              Troca de pasta térmica e remoção de poeira para zerar o
-              superaquecimento.
-            </p>
-          </div>
-        </div>
-        <div class="gallery-item glass animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80"
-            alt="Manutenção Smartphone"
-          />
-          <div class="gallery-info">
-            <h4>Troca de Display de Smartphone</h4>
-            <p>
-              Substituição de tela frontal com teste completo de toque e cores.
-            </p>
-          </div>
-        </div>
-        <div class="gallery-item glass animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
-            alt="Reparo Videogame"
-          />
-          <div class="gallery-info">
-            <h4>Reparo em Placa de Videogame</h4>
-            <p>
-              Manutenção especializada em circuitos de alimentação e portas
-              HDMI.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- SEÇÃO DE AVALIAÇÕES / DEPOIMENTOS -->
-    <section id="avaliacoes" class="testimonials">
-      <h2 class="section-title animate-on-scroll">
-        O que dizem Nossos Clientes
-      </h2>
-      <div class="rating-summary animate-on-scroll">
-        <div class="stars">
-          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-          ><i class="fa-solid fa-star"></i>
+        <!-- Foto 2: Placa-Mãe ASUS TUF Gaming com Processador -->
+        <div class="gallery-item glass animate-on-scroll">
+          <img src="IMG_0045.png" alt="Placa Mãe ASUS TUF Gaming B550M-Plus" />
+          <div class="gallery-info">
+            <h4>Placa-Mãe ASUS TUF Gaming</h4>
+            <p>
+              Preparação e montagem de componentes em chipset de alta
+              performance na bancada.
+            </p>
+          </div>
         </div>
-        <p>
-          <strong>Nota Média 5.0 / 5.0</strong> baseada em avaliações reais de
-          clientes satisfeitos.
-        </p>
-      </div>
 
-      <div class="testimonials-grid">
-        <div class="testimonial-card glass animate-on-scroll">
-          <p class="testimonial-text">
-            "Levei meu notebook que não ligava de jeito nenhum. Fizeram o
-            orçamento rápido e o preço foi super justo. Recomendo demais o
-            trabalho da Spider!"
-          </p>
-          <h5 class="client-name">Carlos Eduardo</h5>
+        <!-- Foto 3: Close na Placa-Mãe ASUS TUF Gaming -->
+        <div class="gallery-item glass animate-on-scroll">
+          <img src="IMG_0046.png" alt="Detalhes da Placa Mãe ASUS TUF Gaming" />
+          <div class="gallery-info">
+            <h4>Inspeção de Placa-Mãe</h4>
+            <p>
+              Verificação minuciosa de slots, capacitores e conexões em ambiente
+              técnico especializado.
+            </p>
+          </div>
         </div>
-        <div class="testimonial-card glass animate-on-scroll">
-          <p class="testimonial-text">
-            "Atendimento excelente em Sorocaba! Meu celular ficou novo após a
-            troca da tela e a entrega foi super rápida. Profissionais de
-            confiança."
-          </p>
-          <h5 class="client-name">Mariana Souza</h5>
-        </div>
-        <div class="testimonial-card glass animate-on-scroll">
-          <p class="testimonial-text">
-            "Meu videogame estava superaquecendo e fazendo barulho. Fizeram a
-            limpeza e troca de pasta, agora está rodando liso e silencioso. Nota
-            10!"
-          </p>
-          <h5 class="client-name">Lucas Gabriel</h5>
-        </div>
-      </div>
-    </section>
 
-    <!-- SEÇÃO DE GALERIA (ESTRUTURA / BANCADA) -->
-    <section class="facility-gallery">
-      <h2 class="section-title animate-on-scroll">Nossa Estrutura e Bancada</h2>
-      <div class="facility-grid">
-        <div class="facility-item glass animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80"
-            alt="Bancada Técnica"
-          />
-          <span>Bancada Técnica Equipada</span>
+        <!-- Foto 4: Placa de Vídeo ASUS Cerberus -->
+        <div class="gallery-item glass animate-on-scroll">
+          <img src="IMG_0053.png" alt="Placa de Vídeo ASUS Cerberus" />
+          <div class="gallery-info">
+            <h4>Manutenção de Placa de Vídeo</h4>
+            <p>
+              Placa de vídeo ASUS Cerberus em processo de limpeza, testes e
+              manutenção rigorosa.
+            </p>
+          </div>
         </div>
-        <div class="facility-item glass animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80"
-            alt="Ferramentas de Precisão"
-          />
-          <span>Ferramentas de Precisão</span>
+
+        <!-- Foto 5: Gabinete Gamer Branco Lateral -->
+        <div class="gallery-item glass animate-on-scroll">
+          <img src="IMG_0058.png" alt="Gabinete Gamer Branco Montado Lateral" />
+          <div class="gallery-info">
+            <h4>Montagem de PC Custom</h4>
+            <p>
+              Organização interna e acabamento impecável em gabinete compacto
+              com painel lateral transparente.
+            </p>
+          </div>
         </div>
-        <div class="facility-item glass animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
-            alt="Equipe Técnica"
-          />
-          <span>Atendimento Especializado</span>
+
+        <!-- Foto 6: Gabinete Gamer Branco Ângulo Frontal -->
+        <div class="gallery-item glass animate-on-scroll">
+          <img src="IMG_0060.png" alt="Gabinete Gamer Branco na Bancada" />
+          <div class="gallery-info">
+            <h4>PC Gamer Finalizado</h4>
+            <p>
+              Equipamento totalmente montado, testado e pronto para entrega com
+              padrão de qualidade.
+            </p>
+          </div>
         </div>
       </div>
     </section>
