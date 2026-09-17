@@ -1,0 +1,135 @@
+/* Header & Navbar */
+header {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000;
+}
+
+.logo-img {
+  height: 28px;
+  object-fit: contain;
+}
+
+.desktop-nav a {
+  color: var(--text-light);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.desktop-nav a:hover {
+  color: var(--light-blue);
+}
+
+.mobile-menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+/* Menu Mobile Overlay */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 300px;
+  height: 100vh;
+  background: #0f172a;
+  border-left: 1px solid var(--border-glass);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  gap: 20px;
+  transition: right 0.4s ease;
+}
+
+.mobile-menu.active {
+  right: 0;
+}
+
+.close-menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.mobile-link {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background: #080c10;
+  border-top: 1px solid var(--border-glass);
+  padding: 60px 8% 30px;
+  margin-top: 80px;
+}
+
+.footer-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-col p,
+.footer-col a {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.footer-col a:hover {
+  color: var(--light-blue);
+}
+
+.footer-col h4 {
+  color: var(--text-light);
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.cnpj-text {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 25px;
+  color: #64748b;
+  font-size: 0.85rem;
+}

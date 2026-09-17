@@ -1,0 +1,10 @@
+/**
+ * Main stylesheet bundle for Spider Informática
+ * Modular CSS structure
+ */
+
+@import url("./base.css");
+@import url("./components.css");
+@import url("./header-footer.css");
+@import url("./sections.css");
+@import url("./responsive.css");
